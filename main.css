@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #DFE6FB;
+}
+
+
+img {
+    max-width: 327px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 0;
+}
+
+.ordercard {
+    max-width: 327px;
+    border: 1px white;
+    border-radius: 20px;
+    background-color: white;
+    margin: 1rem;
+    box-shadow: 2px 6px 15px 5px rgba(210, 199, 255, 0.79);
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin: 2rem 2rem 0.875rem 2rem;
+    color: #1F2E55;
+    line-height: 1.819rem;
+}
+
+.text {
+    font-size: 0.938rem;
+    font-weight: 500;
+    line-height: 1.563rem;
+    margin: 0.875rem 2rem 1.625rem 2rem;
+    color: #717FA6;
+}
+
+.musicplan {
+    max-width: 247px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    text-align: left;
+    margin: 1.5rem;
+    padding: 1rem;
+    color: #717FA6;
+    background-color:#F7F9FF;
+    font-size: 0.875rem;
+}
+
+.musicplan img {
+    padding-right:1.25rem;
+}
+
+span {
+    font-weight: 900;
+    color: #1F2E55;
+    
+}
+
+.musicplan a {
+    color: #382AE1;
+    font-size: 0.813rem;
+    font-weight: 700;
+}
+
+.musicplan a:hover {
+    background-color: hsl(245, 75%, 64%);
+    text-decoration: none;
+}
+
+.paymentbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.paymentbutton1 {
+    max-width: 279px;
+    padding: 1rem 4rem 1rem 4rem;
+    background-color:#382AE1;
+    border: #382AE1;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: 900;
+    box-shadow: 2px 6px 15px 5px rgba(210, 199, 255, 0.79);
+}
+
+.paymentbutton1 a {
+    
+    text-decoration: none;
+    color: white;
+}
+
+.paymentbutton1:hover {
+    background-color: hsl(245, 75%, 64%);
+    text-decoration: none;
+}
+
+.cancellation {
+    margin: 1.438rem 7.188rem 2rem 7.188rem; 
+}
+
+.cancellation:hover {
+    font-weight: 700;
+    background-color: hsl(223, 47%, 23%);
+}
+
+.cancellation a {
+    text-decoration: none;
+    font-size: 0.938rem;
+    color: #717FA6;
+    font-weight: 900;
+}
+
+
+
+@media screen and (max-width: 375px) {
+    body {
+        background-image: url(./images/pattern-background-mobile.svg);
+    }
+    
+}
